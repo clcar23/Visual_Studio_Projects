@@ -71,22 +71,17 @@ body {
 }
 
 /* Here is my CSS */
-h3 {
-    animation-duration: 8s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
+h2 {
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@keyframes slidein {
-    0% {
-        margin-left: 0%;
-    }
+body {
+    background-color: aliceblue;
+}
 
-    50% {
-        margin-left: 300px;
-    }
-
-    100% {
-        margin-left: 0%;
-    }
+h1 {
+    font-family: Algerian;
+    background-color: antiquewhite;
+    color: crimson;
 }
