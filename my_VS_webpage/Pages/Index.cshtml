@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to my first web page created with Visual Studio</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="container">
+    <h2>Here is my sad Youtube video.</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-5jnmM3UjEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br />
+<h2>Here is my sad animation</h2>
+<br />
+
+
+
+<div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"
+     style="background-color:darkseagreen;width:200px;height:100px;padding:40px;">
+    Mouse Over Me
+</div>
+
+<script>
+    function mouseOver(obj) {
+        obj.innerHTML = "Ouch"
+    }
+
+    function mouseOut(obj) {
+        obj.innerHTML = "Quit it!"
+    }
+</script>
